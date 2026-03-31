@@ -8,7 +8,7 @@ import { Home } from './pages/home/home';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Home ], //BigCard, MenuBar, MenuTitle, SmallCard, Home],
+  imports: [RouterOutlet, MenuBar ], //BigCard, MenuBar, MenuTitle, SmallCard, Home],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
